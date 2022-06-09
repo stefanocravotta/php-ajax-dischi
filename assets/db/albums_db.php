@@ -5,6 +5,11 @@ Stampiamo i dischi solo con l’utilizzo di PHP, che stampa direttamente i disch
 In questa milestone non ci sarà nessuna chiamata axios il file php stamperà direttamente il “database”
 Questo file lo chiamate index.php. Il “database” dei dischi è meglio che sia un file esterno che viene incluso */
 
+/* **Seconda Milestone:**
+Attraverso l’utilizzo di axios: al caricamento della pagina axios chiederà, attraverso una chiamata api, i dischi a php e li stamperà attraverso vue CDN.
+Questo file lo chiamate index-vue.html che chiamerà via axios un file che si chiamerà api.php.
+api.php includerà lo stesso “database” che viene incluso anche in index.php */
+
 $albums_db = [
     [
         "poster" => "https://www.onstageweb.com/wp-content/uploads/2018/09/bon-jovi-new-jersey.jpg",
