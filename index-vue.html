@@ -17,8 +17,18 @@
         <header class="d-flex justify-content-between">
           <img src="https://cdn.iconscout.com/icon/free/png-256/spotify-14-437140.png" alt="">
           <div class="d-flex">
-            <select name="" id=""></select>
-            <select name="" id=""></select>
+            <select 
+             v-model="genre"
+             @change="getAPI()"
+             class="form-control me-3"
+             name="genre" 
+             id="genre">
+              <option value="" selected>Seleziona un genere</option>
+              <option value="Rock">Rock</option>
+              <option value="Pop">Pop</option>
+              <option value="Metal">Metal</option>
+              <option value="Jazz">Jazz</option>
+            </select>
           </div>
         </header>
         <div class="container card-container d-flex flex-wrap">
