@@ -1,0 +1,48 @@
+
+/* MAIN */
+
+main{
+    background-color: #1e2d3b;
+    min-height: calc(100vh);
+}
+main header{
+    height: 60px;
+    padding: 10px 10px;
+    background-color: lighten(#1e2d3b, 5%);
+}
+main header img{
+    max-width: 40px;
+    }
+.card-container{
+        padding: 40px 0;
+        min-height: calc(100% - 60px);
+}
+
+/* card component */
+.sc-card{
+    width: calc(100% / 5 - 20px);
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: lighten(#1e2d3b, 5%);
+    color: white;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+    cursor: pointer;
+    transition: all .3s;
+}
+.sc-card:hover{
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .3);
+    scale: 105%;
+}
+.sc-card img{
+    max-width: 100%;
+}
+.sc-card h4{
+    margin-bottom: 25px;
+}
+.sc-card h5,h6{
+    color: rgba(211, 211, 211, 0.377);
+}
+/* /card component */
+
+
+/* /MAIN */
